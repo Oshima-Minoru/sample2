@@ -1,0 +1,219 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+    opacity: 0.3;
+}
+
+.sp {
+    display: none;
+}
+
+.main-container {
+    padding: 0 5%;
+    position: relative;
+}
+
+.content-container {
+    width: calc(100% - 360px);
+    padding-left: 5%;
+    margin-left: auto;
+}
+
+header h1 {
+    padding-top: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+#top {
+    background: url(../image/top-bg.jpg) top center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.top-content {
+    color: #fff;
+    position: fixed;
+    left: 5%;
+    top: 50%;
+    max-width: 360px;
+    z-index: 50;
+}
+
+.article-date {
+    margin-bottom: 70px;
+    letter-spacing: 3px;
+}
+
+.article-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.txt-title {
+    font-size: 30px;
+    font-family: "DNP ShueiGoGinStd";
+    margin-bottom: 30px;
+}
+
+#main {
+    margin: 100px auto;
+}
+
+.content {
+    padding: 50px 0;
+}
+
+.content p {
+    font-size: 15px;
+    margin-bottom: 50px;
+    font-family: "DNP ShueiGoGinStd";
+}
+
+.footer-menu {
+    margin-bottom: 50px;
+}
+
+.footer-menu a {
+    color: #000;
+    font-family: "DNP ShueiGoGinStd";
+    font-size: 15px;
+}
+
+.copyright {
+    font-size: 12px;
+    margin: 20px auto;
+    opacity: 0.3;
+    letter-spacing: 2px;
+}
+
+video {
+    object-fit: cover;
+    height: 90vh;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.parallax-1 {
+    background-image: url("../image/_鷹ノ目1382.jpg");
+    min-height: 500px;
+}
+
+.parallax-2 {
+    background-image: url("../image/210429_日本酒3872_fin.jpg");
+}
+
+.parallax .content h2 {
+    color: #fff;
+}
+
+.parallax .content p {
+    margin-bottom: 30px;
+    padding: 30px 50px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.parallax h2 {
+    font-size: 40px;
+}
+
+.mark-start {
+    margin-left: -10px;
+}
+
+.mark-end {
+    margin-right: -10px;
+}
+
+.parallax hr {
+    border-top: 1px solid #fff;
+}
+
+@media ( max-width: 768px) {
+    .pc {
+        display: none;
+    }
+    .sp {
+        display: block;
+    }
+    .main-container {
+        padding: 0;
+    }
+    .content-container {
+        width: 100%;
+        padding-left: 8%;
+    }
+    header h1 {
+        font-size: 20px;
+    }
+    .top-content {
+        color: #fff;
+        position: relative;
+        top: 300px;
+        left: 0;
+        padding-right: 8%;
+    }
+    .article-date {
+        margin-bottom: 50px;
+    }
+    .article-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .txt-title {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    #main {
+        margin: 50px auto;
+    }
+    .content {
+        padding: 20px 0;
+    }
+    .content .txt-title {
+        padding-right: 8%;
+    }
+    .content p {
+        padding-right: 8%;
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .parallax {
+        margin-bottom: 30px;
+    }
+    .parallax .content {
+        padding: 20px 8% 20px 10%;
+    }
+    .parallax .content p {
+        padding-right: 0;
+        margin: 0;
+    }
+    .footer-menu a {
+        font-size: 12px;
+    }
+    .copyright {
+        font-size: 10px;
+    }
+}
